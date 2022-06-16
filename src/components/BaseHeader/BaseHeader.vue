@@ -1,9 +1,13 @@
 <template>
-  <div class="header">
-        <InfoHeader/>
-        <HeaderTop/>
-        <HeroJumbo/>
-  </div>
+  <header>
+      <InfoHeader/>
+      <div class="Hero">
+        <div class="Hero-content">
+          <HeaderTop/>
+          <HeroJumbo/>
+        </div>
+      </div>  
+  </header>
 </template>
 
 <script>
@@ -21,5 +25,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  .Hero{
+    width: 100%;
+    height: 70rem;
+    background-image: url(../../assets/img/bg-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      &-content{
+       height: 100%; 
+        background-color: rgba(0,0,0,0.6);
+      }
+  }
 </style>

@@ -12,11 +12,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faUber } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {faUser} from '@fortawesome/free-regular-svg-icons'
 /* add icons to the library */
-library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedin)
+library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedin, faUser, faUber)
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
