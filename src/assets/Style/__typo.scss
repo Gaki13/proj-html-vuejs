@@ -29,3 +29,25 @@ body{
     font-weight: bolder;
     margin-right: .3125rem;
 }
+
+.section-title-dark{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    h2{
+        font-size: 4rem;
+        font-weight: bolder;
+        color: white;
+    }
+}
+
+.boxed-title-dark{
+    background-color: rgba($color: #0e272d, $alpha: 5.0);
+    padding: 0 .3125rem ;
+    color: white;
+    border-radius: .125rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-left: .3125rem;
+}
+
