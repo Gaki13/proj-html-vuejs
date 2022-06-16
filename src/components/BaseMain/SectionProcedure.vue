@@ -3,8 +3,7 @@
     <div class="container-full">
       <!-- sezione del titolo -->
       <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4 text-center d-flex flex-column align-items-center">
+        <div class="col-12 text-center d-flex flex-column align-items-center">
           <p class="upper-title">how it works in pratice</p>
           <div class="section-title">
             <h2 class="boxed-title">Logistical</h2>
@@ -59,6 +58,9 @@ export default {
   .container-full{
     background-color: #eef4ed;
     padding: 8.125rem 0 10rem;
+    .row{
+      width: 100%;
+    }
     .line{
       border: 3px solid #cce3de;
       margin-bottom: -20px;

@@ -21,8 +21,9 @@ import { faTruckRampBox } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faTemperatureLow } from '@fortawesome/free-solid-svg-icons'
 import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons'
+import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 /* add icons to the library */
-library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedin, faUser, faUber, faGem, faTruckRampBox, faArrowRight, faTemperatureLow, faBoxesStacked)
+library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedin, faUser, faUber, faGem, faTruckRampBox, faArrowRight, faTemperatureLow, faBoxesStacked, faQuoteRight)
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -81,7 +81,6 @@ export default {
       span{
         background-color: #0f4e51;
         color: #058283;
-        // width: 2.25rem ;
         border-radius: 50%;
         padding: 5px .625rem;
       }

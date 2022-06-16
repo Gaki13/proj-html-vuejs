@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <div class="container-st d-flex flex-column justify-content-center">
+    <div class="container-small d-flex flex-column justify-content-center">
       <!-- sezione del titolo -->
       <div class="row">
         <div class="col-12 text-center d-flex flex-column align-items-center">
@@ -47,7 +47,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    .container-st{
+    .container-small{
       height: 100%;
       gap: 9.375rem;
       .col-3{
