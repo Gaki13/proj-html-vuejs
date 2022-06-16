@@ -9,3 +9,23 @@ body{
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
+.section-title{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    h2{
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+}
+
+.boxed-title{
+    background-color: #daeced;
+    padding: .3125rem .625rem;
+    color: #058283;
+    border-radius: .125rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-right: .3125rem;
+}
