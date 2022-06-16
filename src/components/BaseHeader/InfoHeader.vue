@@ -30,6 +30,9 @@ export default {
         color: #c0c3d0;
         .row{
             height: 3.125rem;
+            p{
+                margin-bottom: 0;
+            }
         }
     }
 </style>

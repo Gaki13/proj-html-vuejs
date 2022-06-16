@@ -33,7 +33,7 @@ export default {
     background-size: cover;
       &-content{
        height: 100%; 
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0,0,0,0.7);
       }
   }
 </style>
