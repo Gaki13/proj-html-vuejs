@@ -32,7 +32,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
       &-content{
-       height: 100%; 
+        height: 100%; 
         background-color: rgba(0,0,0,0.7);
       }
   }

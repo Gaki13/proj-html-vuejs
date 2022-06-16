@@ -24,7 +24,7 @@ body{
     background-color: #daeced;
     padding: .3125rem .625rem;
     color: #058283;
-    border-radius: .125rem;
+    border-radius: .3125rem;
     font-size: 4rem;
     font-weight: bolder;
     margin-right: .3125rem;
@@ -42,12 +42,13 @@ body{
 }
 
 .boxed-title-dark{
-    background-color: rgba($color: #0e272d, $alpha: 5.0);
-    padding: 0 .3125rem ;
+    background-color: rgba( 14, 39, 45, 0.5);
+    padding: 0 .625rem ;
     color: white;
-    border-radius: .125rem;
+    border-radius: .3125rem;
     font-size: 4rem;
     font-weight: bolder;
     margin-left: .3125rem;
+    margin-right: .3125rem;
 }
 
