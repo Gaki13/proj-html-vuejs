@@ -1,28 +1,45 @@
 /*-------------------------
         BUTTOMS
 --------------------------*/
-.primary-button{
+.primary-button, .secondary-button, .tertiary-button{
     padding: .5625rem 1.5625rem;
+    border-radius: .3125rem;
+    transition: all;
+}
+
+.primary-button{
     background-color: #058283;
     color: white;
     font-weight: bold;
-    border: none;
-    border-radius: .3125rem;
+    border: 1px solid #058283;
 }
 
 .secondary-button{
-    padding: .5625rem 1.5625rem;
     background-color: inherit;
     border:  1px solid #058283;
     color: white;
     font-weight: bold;
-    border-radius: .3125rem;
 }
 
 .tertiary-button{
-    padding: .5625rem 1.5625rem;
     background-color: inherit;
     border:  1px solid #058283;
     color: #058283;
-    border-radius: .3125rem;
+}
+
+/*----------------------------
+   BUTTOMS  EFFETCTS
+-----------------------------*/
+.primary-button:hover{
+    background-color: inherit;
+    color: #058283;
+}
+
+.secondary-button:hover{
+    background-color: #058283;
+}
+
+.tertiary-button:hover{
+    background-color: #058283;
+    color: white;
 }

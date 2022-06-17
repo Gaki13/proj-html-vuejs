@@ -6,8 +6,8 @@
         <div class="col-9">
           <nav>
             <ul class="d-flex justify-content-between align-items-center">
-              <li v-for="link in links" :key="link">{{link.text}}</li>
-              <li><font-awesome-icon icon="fa-regular fa-user" /></li>
+              <li v-for="link in links" :key="link"><a :href="link.url">{{link.text}}</a></li>
+              <li> <a href="#"><font-awesome-icon icon="fa-regular fa-user" /></a></li>
               <li><button class="primary-button">GET IN TOUCH</button></li>
             </ul>
           </nav>
@@ -67,6 +67,10 @@ export default {
       font-size: 1.125rem;
       li{
         text-transform: uppercase;
+        a{
+          color: white;
+          text-decoration: none;
+        }
       }
     }
   }
