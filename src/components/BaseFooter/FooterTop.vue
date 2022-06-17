@@ -3,7 +3,7 @@
     <div class="container-st">
       <div class="row">
         <div class="col-3 d-flex flex-column">
-          <img src="../../assets/img/logoimage.png" alt="Logo di Nex Gen">
+          <img src="../../assets/img/logoimage.png" alt="Logo di Nex Gen" class="mb-3">
           <p class="lower-title">A Functional HTML Template for Corporate & Bussiness</p>
           <div class="contact">
             <span> <font-awesome-icon icon="fa-solid fa-phone" /></span>
