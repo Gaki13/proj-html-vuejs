@@ -39,15 +39,33 @@
             <!-- textare del form -->
             <div class="row">
               <div class="col">
-                <textarea class="form-control form-style" placeholder="Message" cols="30" rows="8"></textarea>
+                <textarea class="form-control form-style" placeholder="Message" cols="30" rows="7"></textarea>
               </div>
             </div>
             <button class="primary-button mt-4">SEND</button>
           </form>
         </div>
         <!-- sezione aside con le info -->
-        <div class="col-4">
-
+        <div class="col-4 d-flex flex-column">
+          <h5>Example Inc.</h5>
+          <p class="lower-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p class="lower-title"> Modi suscipit tempora harum, explicabo porro molestias eos.</p>
+          <div class="contact">
+            <span> <font-awesome-icon icon="fa-solid fa-phone" /></span>
+            +1 (305 1234-5678)
+          </div>
+          <div class="contact ">
+            <span><font-awesome-icon icon="fa-solid fa-envelope" /></span>
+            hello@example.com
+          </div>
+          <div class="contact ">
+            <span><font-awesome-icon icon="fa-solid fa-location-dot" /></span>
+            MainAvenue, 987
+          </div>
+          <div>
+            <button class="tertiary-button mt-5">VIEW MAP</button>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -64,6 +82,10 @@ export default {
   .container-st{
     padding: 8.125rem 0 9.375rem;
 
+    .col-8{
+      padding-right: 3.25rem;
+    }
+
     .boxed-title{
       margin-left: .4375rem;
     }
@@ -76,6 +98,23 @@ export default {
         background-color: #ececec;
         border: none;
         color: #6c757d;
+      }
+    }
+
+    h5{
+      font-size: 1.8125rem;
+      font-weight: bolder;
+      margin-bottom: 1.8125rem;
+    }
+
+    .contact{
+      color: #208283;
+      font-size: 1.35rem;
+      margin: .6875rem 0;
+      span{
+        background-color: #daeced;
+        padding: .375rem .625rem;
+        border-radius: 50%;
       }
     }
   }

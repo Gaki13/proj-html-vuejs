@@ -22,8 +22,9 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faTemperatureLow } from '@fortawesome/free-solid-svg-icons'
 import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 /* add icons to the library */
-library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedin, faUser, faUber, faGem, faTruckRampBox, faArrowRight, faTemperatureLow, faBoxesStacked, faQuoteRight)
+library.add(faClock, faPhone, faEnvelope, faTwitter, faFacebookF, faLinkedin, faUser, faUber, faGem, faTruckRampBox, faArrowRight, faTemperatureLow, faBoxesStacked, faQuoteRight, faLocationDot)
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
