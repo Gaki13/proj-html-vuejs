@@ -10,9 +10,40 @@
             <h2>Get in</h2>
             <h2 class="boxed-title">Touch</h2>
           </div>
-          <p>We will respond to your message as soon as posible</p>
+          <p class="mt-3 lower-title">We will respond to your message as soon as posible</p>
           <!-- form vero e proprio -->
-          
+          <form  class="mt-5">
+            <!-- prima riga del form -->
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control form-style" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control form-style" placeholder="Email" aria-label="Email">
+              </div>
+            </div>
+            <!-- seconda riga del form -->
+            <div class="row  my-3">
+              <div class="col">
+                <input type="text" class="form-control form-style" placeholder="Phone" aria-label="Phone">
+              </div>
+              <div class="col">
+                <select class="form-select form-style" placeholder="More info" aria-label="More info">
+                  <option selected>More info</option>
+                  <option value="1">Info example</option>
+                  <option value="2">Info example</option>
+                  <option value="3">Info example</option>
+              </select>
+              </div>
+            </div>
+            <!-- textare del form -->
+            <div class="row">
+              <div class="col">
+                <textarea class="form-control form-style" placeholder="Message" cols="30" rows="8"></textarea>
+              </div>
+            </div>
+            <button class="primary-button mt-4">SEND</button>
+          </form>
         </div>
         <!-- sezione aside con le info -->
         <div class="col-4">
@@ -31,8 +62,21 @@ export default {
 
 <style lang="scss" scoped>
   .container-st{
+    padding: 8.125rem 0 9.375rem;
+
     .boxed-title{
-      margin-left: .3125rem;
+      margin-left: .4375rem;
+    }
+    
+    form{
+      input, select{
+        height: 45px;
+      }
+      .form-style{
+        background-color: #ececec;
+        border: none;
+        color: #6c757d;
+      }
     }
   }
 </style>

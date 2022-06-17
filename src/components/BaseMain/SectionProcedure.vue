@@ -9,7 +9,7 @@
             <h2 class="boxed-title">Logistical</h2>
             <h2>Procedure</h2>
           </div>
-          <p>We work with innovative moethodologies to ensure that ensure that the entire delivery process is done from start ti finish as planned</p>
+          <p class="lower-title">We work with innovative moethodologies to ensure that ensure that the entire delivery process is done from <br> start to finish as planned</p>
         </div>
       </div>
       <!-- sezione della barra con le fasi del processo -->

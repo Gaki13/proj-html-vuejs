@@ -1,13 +1,24 @@
+/*--------------------------
+        GOOGLE FONTS
+---------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap');
 
 body{
     font-family: 'Heebo', sans-serif;
 };
 
+/*------------------------------------
+        TITOLI DELLE SECTION
+------------------------------------*/
 .upper-title{
     color: #00a6a6;
     text-transform: uppercase;
     margin-bottom: 0;
+}
+
+.lower-title{
+    color: #606d87;
+    font-size: 1.1875rem;
 }
 
 .section-title{
