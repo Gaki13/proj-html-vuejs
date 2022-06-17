@@ -2,8 +2,24 @@
   <div class="footer-top">
     <div class="container-st">
       <div class="row">
-        <div class="col-3">
-
+        <div class="col-3 d-flex flex-column">
+          <img src="../../assets/img/logoimage.png" alt="Logo di Nex Gen">
+          <p class="lower-title">A Functional HTML Template for Corporate & Bussiness</p>
+          <div class="contact">
+            <span> <font-awesome-icon icon="fa-solid fa-phone" /></span>
+            +1 (305 1234-5678)
+          </div>
+          <div class="contact ">
+            <span><font-awesome-icon icon="fa-solid fa-envelope" /></span>
+            hello@example.com
+          </div>
+          <div class="contact ">
+            <span><font-awesome-icon icon="fa-solid fa-location-dot" /></span>
+            MainAvenue, 987
+          </div>
+          <div class="mt-4">
+            <button class="secondary-button">GET IN TOUCH</button>
+          </div> 
         </div>
         <div class="col-3">
           <div class="card-box">
@@ -127,6 +143,16 @@ export default {
   .footer-top{
     background-color: #111117;
     padding: 8.125rem 0 10rem;
+    
+    .contact{
+      font-size: 1.1875rem;
+      color: #b6c3d0;
+      margin: .6875rem 0;
+      span{
+        margin-right: .625rem;
+      }
+    }
+    
     .card-box{
       a{
         color: #b6c3d0;
