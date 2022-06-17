@@ -110,7 +110,7 @@ export default {
     .contact{
       color: #208283;
       font-size: 1.35rem;
-      margin: .6875rem 0;
+      margin: .875rem 0;
       span{
         background-color: #daeced;
         padding: .375rem .625rem;
